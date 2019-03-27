@@ -1,0 +1,10 @@
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой проект.csprojAssemblyReference.cache
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой проект.csproj.ResolveComReference.cache
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Form1.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Form2.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Form3.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Form4.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Form5.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой_проект.Properties.Resources.resources
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой проект.csproj.GenerateResource.cache
+C:\Users\Sergey\Desktop\Учеба\СиБД\Мой курсовой 3 версия\Курсовой проект\obj\Release\Курсовой проект.csproj.CoreCompileInputs.cache
