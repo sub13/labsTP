@@ -4,14 +4,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Tavern.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTests
     {
         [TestMethod]
         public void CheckPriceOrdinaryItem() //проверяем уменьшение цены товара при наступлении полночи
         {
             float ExceptedPrice = 0.5F, ResultPrice;
             Good good = new Good("Чипсы", 30, 1.5F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -21,7 +21,7 @@ namespace Tavern.Tests
         {
             int ExceptedDays = 29, ResultDays;
             Good good = new Good("Чипсы", 30, 1.5F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultDays = good.Days;
             Assert.AreEqual(ExceptedDays, ResultDays);
         }
@@ -31,7 +31,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 2F, ResultPrice;
             Good good = new Good("Чипсы", 0, 4F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -41,7 +41,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 31F, ResultPrice;
             Good good = new Good("Коньяк", 30, 30F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -51,8 +51,8 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 50F, ResultPrice;
             Good good = new Good("Меч короля Артура", 30, 50F);
-            good.UpdateGood();
-            good.UpdateGood();
+            good.UpdateGoods();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -61,8 +61,8 @@ namespace Tavern.Tests
         {
             int ExceptedDays = 30, ResultDays;
             Good good = new Good("Меч короля Артура", 30, 50F);
-            good.UpdateGood();
-            good.UpdateGood();
+            good.UpdateGoods();
+            good.UpdateGoods();
             ResultDays = good.Days;
             Assert.AreEqual(ExceptedDays, ResultDays);
         }
@@ -72,7 +72,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 41F, ResultPrice;
             Good good = new Good("Билет на концерт", 30, 40F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -82,7 +82,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 42F, ResultPrice;
             Good good = new Good("Билет на концерт", 10, 40F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -92,7 +92,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 43F, ResultPrice;
             Good good = new Good("Билет на концерт", 5, 40F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -102,7 +102,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 0F, ResultPrice;
             Good good = new Good("Билет на концерт", 0, 40F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }
@@ -112,7 +112,7 @@ namespace Tavern.Tests
         {
             float ExceptedPrice = 0F, ResultPrice;
             Good good = new Good("Кола", 0, 0.01F);
-            good.UpdateGood();
+            good.UpdateGoods();
             ResultPrice = good.Price;
             Assert.AreEqual(ExceptedPrice, ResultPrice);
         }

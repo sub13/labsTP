@@ -47,19 +47,19 @@ namespace Tavern
             }
         }
 
-        public void UpdateGood() // если время пришло то просто будет запускаться этот метод, проверка на время будет делать извне
+        public void UpdateGoods() // если время пришло то просто будет запускаться этот метод, проверка на время будет делать извне
         {
             switch (Name)
             {
                 case "Коньяк": priceChange = -1; break;
                 case "Меч короля Артура": break;
-                case "Билет на концерт":  PriceChangeTicket(); days = days - daysChange; break;
+                case "Билет на концерт":  PriceChangeTicket(); days -= daysChange; break;
                 default:
-                    if (days == 0) Price = Price / multiplier;
+                    if (days == 0) Price /= multiplier;
                     else priceChange = 1;
-                    days = days - daysChange; break;
+                    days -= daysChange; break;
             }
-            Price = Price - priceChange;
+            Price -= priceChange;
         }
 
         void PriceChangeTicket()
