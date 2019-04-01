@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavern", "Tavern\Tavern.csproj", "{0A55A714-E3AE-4EFB-87CF-32702C1659C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavern.Tests", "Tavern.Tests\Tavern.Tests.csproj", "{1881DBFA-7132-4899-9531-77D26B9B6C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A55A714-E3AE-4EFB-87CF-32702C1659C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A55A714-E3AE-4EFB-87CF-32702C1659C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A55A714-E3AE-4EFB-87CF-32702C1659C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A55A714-E3AE-4EFB-87CF-32702C1659C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1881DBFA-7132-4899-9531-77D26B9B6C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881DBFA-7132-4899-9531-77D26B9B6C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881DBFA-7132-4899-9531-77D26B9B6C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881DBFA-7132-4899-9531-77D26B9B6C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54AF5265-2210-424B-A071-AE3DA583758C}
+	EndGlobalSection
+EndGlobal
